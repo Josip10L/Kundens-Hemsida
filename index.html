@@ -1,34 +1,51 @@
+<!--Gjord av Ville-->
+<!--Bestämmer att html 5 används-->
 <!DOCTYPE html> 
+<!--Start tag för html och lang="sv" bestämmer uppläsnings språk på sidan-->
 <html lang="sv">
+   <!--Head tag för information som inte kommer synas på sidan-->
    <head>
+      <!--Meta charset visar på vilken teckenkodning som används, i detta fall utf-8
+      link taggen refererar till style.css som är css filen som är bunden till alla html filer, har relationen satt som stylesheet för att berätta för datorn att det är just till styling
+      Title taggen bestämmer vad som ska stå på fliken när man har filen öppen i en webbläsare, i detta fall "startsida"-->
       <meta charset="utf-8">
       <link href="style.css" rel="stylesheet">
       <title>Startsida</title>
+   <!--Sluttagg för head, alla taggar med / innan taggnamnet är sluttaggar-->
    </head>
+   <!--Start tag för body, detta är det som visas på sidan, klassen refererar till en klass selektor i style.css. Klassen är det grid som används i body-->
    <body class="body-grid">
+   <!--Semantisk header tag, detta används för den översta delen av sidan--> 
     <header>
-        <h1 class="titel">Startsida</h1>
+       <!--H1 tag, titel med högsta prioritet på sidan, högre nummer betyder lägre prioritet-->
+        <h1>Startsida</h1>
+        <!--Semantisk nav tag, används för den globala menyn på sidan-->
+        <nav>
+           <!--ul tag, står för unordered list och är huvud delen av den globala menyn-->
+            <ul class="list-grid">
+               <!--li tag, står för list item och är ett objekt i listan.-->
+               <li>
+                  <!--A tag, länkar till index.html, kan även användas för att länka till externa webbsidor. href="namn" är det objekt som länkas-->
+                  <a href="index.html">
+                     Startsida
+                  </a>
+               </li>
+               <li>
+                  <a href="colorblind.html">
+                     Färgblindhet
+                  </a>
+               </li>
+               <li>
+                  <a href="visual_impairment.html">
+                     Övriga Synskador
+                  </a>
+               </li>
+            </ul>
+         </nav>
      </header>
-     <nav>
-        <ul class="list-grid">
-           <li>
-              <a href="index.html">
-              Startsida
-              </a>
-           </li>
-           <li>
-              <a href="colorblind.html">
-              Färgblindhet
-              </a>
-           </li>
-           <li>
-              <a href="visual_impairment.html">
-              Övriga Synskador
-              </a>
-           </li>
-        </ul>
-     </nav>
+     <!--Semantisk Main tag, används för huvuddelen av sidan, här kommer det mesta innehållet vara.-->
      <main class="main-grid">
+        <!--P tag, används för vanlig text, i texten har jag även använt <br> som bryter raden och hoppar ner ett steg. Gör detta för att det ska vara enklare att läsa--->
         <p class="text6">
             Synskador är en väldigt vanlig funktions nedsättning, många kan tänka på synskador som att vara blind men det finns väldigt många olika sorters synskador. <br>
             På denna sida kommer vi förklara olika synskador och du kommer kunna bli mer vetande inom ämnet. <br>
@@ -42,10 +59,12 @@
             De har också en speciell verksamhet riktat mot barn och unga med synnedsättning, de arrangerar aktiviteter för deras medlemmar anpassat för personer med synnedsättningar.
         </p>
         <a href="https://www.srf.nu/">
+            <!--IMG tag inuti en a tag. Detta gör bilden klickbar och får destinationen som står i a taggen. src är source till bilden, alt är det som står ifall bilden inte kan visas-->
             <img src="SRF.jpg" alt="Synskadades Riksförbund Logotyp">
         </a>
      </main>
-     <footer class="footer-grid">
+     <!--Semantisk Footer tag, används för sidfoten-->
+     <footer>
         <p>2021-01-15</p>
         <a href="om_oss.html">Om Oss</a>
         <a href="https://www.teknikum.se">Teknikum.se</a>
