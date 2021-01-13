@@ -34,6 +34,7 @@ footer{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 100px;
 	display: grid;
+	grid-area: footer;
 	align-items: center;
 	position: fixed;
 	left: 0; 
@@ -92,10 +93,6 @@ nav{
 
 main{
 	grid-area: main;
-}
-
-footer{
-	grid-area: footer;
 }
 
 ul{
