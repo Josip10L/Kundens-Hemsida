@@ -216,6 +216,7 @@ a:hover{
 	border: 4px black solid;
 	border-radius: 25px;
 }
+
 .text2{
 	text-align: left;
 	grid-column: 1/3;
