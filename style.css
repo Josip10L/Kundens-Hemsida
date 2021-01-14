@@ -55,7 +55,9 @@ footer{
 	display: grid;
 	/*Align items gör att alla element i footern blir centrerade i sin ruta.*/
 	align-items: center;
+	/*Ett element med position: fixed; förblir alltid på samma plats, även när man skrollar på sidan*/
 	position: fixed;
+	/*Top, right, bottom och left egenskaperna används för att placera ett element, som i det här fallet position: fixed;*/
 	left: 0; 
 	bottom: 0; 
 	/*Gör att footern tar upp hela skärmen i bredd*/
