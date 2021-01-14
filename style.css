@@ -78,9 +78,9 @@ h1{
 }
 
 .text3{
-	text-align: center;
+	text-align: left;
 	grid-column: 1/3;
-	grid-row-start: 3;
+	grid-row: 2/4;
 	padding: 10px;
 	margin: 30px;
 	background-color: #cecece;
@@ -203,7 +203,7 @@ a:hover{
  	
 
 /*Till Index.html*/
-.text5{
+.text1{
 	text-align: left;
 	grid-column: 1/4;
 	grid-row: 2/4;
@@ -213,7 +213,7 @@ a:hover{
 	border: 4px black solid;
 	border-radius: 25px;
 }
-.text6{
+.text2{
 	text-align: left;
 	grid-column: 1 / 3;
 	grid-row-start: 1;
