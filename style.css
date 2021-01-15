@@ -231,24 +231,23 @@ a:hover{
 .image1{
 	grid-column-start: 1;
 	grid-row-start: 3;
-
-		margin-left: auto;
-		margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .image2{
 	grid-column-start: 2;
 	grid-row-start: 3;
-		margin-left: auto;
-		margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	
 
 }
 .image3{
 	grid-column-start: 3;
 	grid-row-start: 3;
-		margin-left: auto;
-		margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 
@@ -257,9 +256,9 @@ div.text0{
 	text-align: center;
 	grid-column-start: 2;
 	grid-row-start: 1;
-    height: 100px;
-    height: 250px;
-    width: 600px;
+    	height: 100px;
+    	height: 250px;
+    	width: 600px;
 	padding: 50px;
 	margin: 2px;
 	background-color: #cecece;
