@@ -151,6 +151,7 @@ ul li a{
 	text-decoration: none;
 	font-size: 25px;
 	color: white;
+	/*display: block; betyder att elementet visas som ett block*/
 	display: block;
 }
 
