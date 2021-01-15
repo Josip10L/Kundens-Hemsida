@@ -55,9 +55,7 @@ footer{
 	display: grid;
 	/*Align items gör att alla element i footern blir centrerade i sin ruta.*/
 	align-items: center;
-	/*Ett element med position: fixed; förblir alltid på samma plats, även när man skrollar på sidan*/
 	position: fixed;
-	/*Top, right, bottom och left egenskaperna används för att placera ett element, som i det här fallet position: fixed;*/
 	left: 0; 
 	bottom: 0; 
 	/*Gör att footern tar upp hela skärmen i bredd*/
@@ -229,3 +227,44 @@ a:hover{
 	border: 4px black solid;
 	border-radius: 25px;
 }
+
+.image1{
+	grid-column-start: 1;
+	grid-row-start: 3;
+
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.image2{
+	grid-column-start: 2;
+	grid-row-start: 3;
+		margin-left: auto;
+		margin-right: auto;
+	
+
+}
+.image3{
+	grid-column-start: 3;
+	grid-row-start: 3;
+		margin-left: auto;
+		margin-right: auto;
+	
+}
+
+
+div.text0{	
+	text-align: center;
+	grid-column-start: 2;
+	grid-row-start: 1;
+    height: 100px;
+    height: 250px;
+    width: 600px;
+	padding: 50px;
+	margin: 2px;
+	background-color: #cecece;
+	border: 4px black solid;
+	border-radius: 50px;
+	font-size: 150%;
+}
+
